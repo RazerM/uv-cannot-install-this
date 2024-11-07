@@ -1,0 +1,15 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "uv-cannot-install-this"
+version = "1.0"
+readme = "README.md"
+authors = [
+    { name = "Frazer McLean", email = "frazer@frazermclean.co.uk" }
+]
+requires-python = ">=3.12"
+
+[project.scripts]
+uv-cannot-install-this = "uv_cannot_install_this.__main__:main"
