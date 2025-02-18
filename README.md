@@ -1,3 +1,7 @@
+**This was fixed in uv 0.5.30**
+
+---
+
 ```bash
 git clone https://github.com/RazerM/uv-cannot-install-this.git
 cd uv-cannot-install-this
